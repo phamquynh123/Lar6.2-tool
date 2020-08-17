@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
- <title>Laravel Send Email Example</title>
+ <title>Send Email</title>
 </head>
 <body>
- 
- <h1>This is test mail from ABC</h1>
- <p>Thank you, {{ $user->name }}</p>
- 
+    <h1>This is test mail from Quynh ahihi</h1> 
+    <p>{{ $data['message'] }}</p>
+    <p>Thank you!</p>
+
 </body>
-</html> 
+</html>

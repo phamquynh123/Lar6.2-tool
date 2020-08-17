@@ -18,4 +18,6 @@ Route::get('qrcode', function () {
     return QrCode::size(500)->generate('Quynhxinhvch hihi');
 });
 
- Route::get('laravel-send-email', 'EmailController@sendEMail');
+Route::get('send-email', 'EmailController@sendEMail');
+Auth::routes();
+Route::get('/home', 'HomeController@index')->name('home');
